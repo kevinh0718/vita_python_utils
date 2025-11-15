@@ -1,2 +1,4 @@
 **/.ipynb_checkpoints/
+**/__pycache__/
 src/vita_python_utils.egg-info/
+vita_container/

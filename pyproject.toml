@@ -26,4 +26,14 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/phantom-utils"
+"Homepage" = "https://github.com/kevinh0718/vita_python_utils.git"
+
+[project.optional-dependencies]
+examples = [
+    "matplotlib",
+    "jupyter",    # Needed to run the notebook
+]
+dev = [
+    "pytest",     # If you add tests later
+    "black"       # Formatter
+]
