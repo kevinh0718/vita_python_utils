@@ -42,7 +42,7 @@ def random_index_of_one(arr):
     indices = np.argwhere(arr == 1)  # Find all (x, y, z) indices where value is 1
     if indices.size == 0:
         return None  # No 1s found
-    return tuple(indices[np.random.choice(indices.shape[0])])  # Randomly select one
+    return indices[np.random.choice(indices.shape[0])]  # Randomly select one
 
 def save_np_vtk(tar_region, save_path, spacing=0.375, smooth=True, filetype='vtk'):
     # Define padding width

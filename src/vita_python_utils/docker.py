@@ -23,8 +23,8 @@ def gen_vita_docker_com(
         str(ves_pos[1]),
         str(ves_pos[2]),
         str(num_ves),
-        "data/generated/"+gen_prefix,
-        "data/vas_region/"+vtk_name,
+        gen_prefix,
+        vtk_name,
         "0"
     ]
 

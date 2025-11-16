@@ -1,0 +1,12 @@
+# *
+.DS_Store
+.vscode/
+vessel_synthesis
+Makefile
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cco
+*.vtp
+*.vtk
+!sphere.vtk
